@@ -40,7 +40,7 @@ export default {
 
     console.log(this.colors);
 
-    this.emotions = await this.$content("emotions")
+    this.emotions = await this.$content("workshop")
       .only(["anonymous", "username", "thought"])
       .fetch();
 

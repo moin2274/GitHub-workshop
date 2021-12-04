@@ -1,5 +1,5 @@
 <template>
-  <Emotions />
+  <Workshop />
 </template>
 
 <script>
