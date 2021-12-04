@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1>Yours Emotions</h1>
+    <center>
+      <h1 class="header">GitHub Workshop</h1>
+    </center>
     <div class="content-grid">
       <div
         v-for="emotion of emotions"
@@ -52,6 +54,11 @@ export default {
 <style lang="css" >
 body {
   background: #2c3e50;
+}
+
+.header {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .content-grid {
