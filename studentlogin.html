@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="studentlogin/fonts/icomoon/style.css">
+
+    <link rel="stylesheet" href="studentlogin/css/owl.carousel.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="studentlogin/css/bootstrap.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="studentlogin/css/style.css">
+
+    <title>Student Login</title>
+  </head>
+  <body>
+  
+
+  
+  <div class="content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="studentlogin/images/loginpageimg.png" alt="Image" class="img-fluid">
+        </div>
+        <div class="col-md-6 contents">
+          <div class="row justify-content-center">
+            <div class="col-md-8">
+              <div class="mb-4">
+              <h3>Sign In as Student</h3>
+           
+            </div>
+            <form action="studentlogin/studentlogin.php" name = "form" method="post">
+              <div class="form-group first">
+                <label for="username">Username / UID</label>
+                <input type="text" class="form-control" id="username" name = "username">
+
+              </div>
+              <div class="form-group last mb-4">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" name = "password">
+                
+              </div>
+              
+              <div class="d-flex mb-5 align-items-center">
+                <a href = "studentregistration/studentregistration.php" class = "forgot-pass" >Register</a>
+                <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span> 
+              </div>
+
+              <input type="submit" name = "login" value="Log In" class="btn btn-block btn-primary" style = "background-color: #009cea; border-color : #009cea">
+            </form>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+  
+    <script src="studentlogin/js/jquery-3.3.1.min.js"></script>
+    <script src="studentlogin/js/popper.min.js"></script>
+    <script src="studentlogin/js/bootstrap.min.js"></script>
+    <script src="studentlogin/js/main.js"></script>
+  </body>
+</html>
